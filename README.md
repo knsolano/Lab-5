@@ -1,2 +1,3 @@
 # Lab 5
 For this lab, I created my main.cpp and included the headers iostream, iomanip, cstdlib and ctime since we will be using rand and srand for this assignment. To create the 5 different companies, I first created a struct BusinessCards with the variables of the name, address, phone number, hours, POC, and price quote. Then I used a constructor in order to create 5 different company instances. To make sure the quotes would generate different numbers every time, I used srand(time(nullptr)). Then to make sure the complier finds the best price, I used a for loop so it would go through each company's price and get the cheapest one.
+https://youtu.be/tJc1xk_f4Jo
